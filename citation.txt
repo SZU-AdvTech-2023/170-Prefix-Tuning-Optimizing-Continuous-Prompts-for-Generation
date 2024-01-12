@@ -1,0 +1,6 @@
+@article{REPO170,
+    author = "Li, Xiang Lisa and Liang, Percy",
+    journal = "arXiv preprint arXiv:2101.00190",
+    title = "{Prefix-tuning: Optimizing Continuous Prompts for Generation}",
+    year = "2021"
+}
