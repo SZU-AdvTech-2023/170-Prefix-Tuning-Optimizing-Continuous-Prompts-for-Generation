@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=4 python train_bart.py --mode xsum --preseqlen 200 --do_train yes --fp16 yes --bsz 4 --epoch 5 --gradient_accumulation_step 3 --learning_rate 0.00005  --mid_dim 800

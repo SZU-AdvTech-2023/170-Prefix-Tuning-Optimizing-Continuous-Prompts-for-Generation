@@ -1,0 +1,172 @@
+Meteor version: 1.5
+
+Eval ID:        meteor-1.5-wo-en-norm-0.85_0.2_0.6_0.75-ex_st_sy_pa-1.0_0.6_0.8_0.6
+
+Language:       English
+Format:         plaintext
+Task:           Ranking
+Modules:        exact stem synonym paraphrase
+Weights:        1.0 0.6 0.8 0.6
+Parameters:     0.85 0.2 0.6 0.75
+
+Segment 1 score:	0.4857130564612507
+Segment 2 score:	1.0
+Segment 3 score:	0.5379493569969225
+Segment 4 score:	1.0
+Segment 5 score:	1.0
+Segment 6 score:	1.0
+Segment 7 score:	0.490095427716608
+Segment 8 score:	1.0
+Segment 9 score:	0.3938061749040007
+Segment 10 score:	1.0
+Segment 11 score:	0.5306045115147152
+Segment 12 score:	0.5449743746435872
+Segment 13 score:	0.4776696620223255
+Segment 14 score:	0.5460678287119701
+Segment 15 score:	0.5208692824328411
+Segment 16 score:	0.5021520570223772
+Segment 17 score:	1.0
+Segment 18 score:	0.43686326212448623
+Segment 19 score:	0.48406698485029875
+Segment 20 score:	0.4936714885179634
+Segment 21 score:	1.0
+Segment 22 score:	0.4581963184866432
+Segment 23 score:	0.5161210442123606
+Segment 24 score:	1.0
+Segment 25 score:	1.0
+Segment 26 score:	0.5012258995950178
+Segment 27 score:	1.0
+Segment 28 score:	0.5019453123478734
+Segment 29 score:	1.0
+Segment 30 score:	0.9466666666666668
+Segment 31 score:	0.39665721616135535
+Segment 32 score:	0.48753204453115284
+Segment 33 score:	0.43727713840883786
+Segment 34 score:	1.0
+Segment 35 score:	0.45439778488405674
+Segment 36 score:	1.0
+Segment 37 score:	0.5696588983638696
+Segment 38 score:	0.5501888029485176
+Segment 39 score:	0.46833698107617794
+Segment 40 score:	0.46608841385021255
+Segment 41 score:	1.0
+Segment 42 score:	1.0
+Segment 43 score:	0.43642092412173733
+Segment 44 score:	0.5616089450722821
+Segment 45 score:	0.5184733176443482
+Segment 46 score:	1.0
+Segment 47 score:	0.516307976311847
+Segment 48 score:	0.49222970078378475
+Segment 49 score:	0.4543080845338012
+Segment 50 score:	0.39054148577962167
+Segment 51 score:	0.4945467246158677
+Segment 52 score:	0.43545785966750983
+Segment 53 score:	0.3676127565207446
+Segment 54 score:	0.5341311049053998
+Segment 55 score:	0.44640261940023024
+Segment 56 score:	0.4518439373405032
+Segment 57 score:	0.31971445492948736
+Segment 58 score:	0.41903275932469863
+Segment 59 score:	0.4793451097912337
+Segment 60 score:	0.4153419158163806
+Segment 61 score:	0.5188231961476711
+Segment 62 score:	0.41540964579629824
+Segment 63 score:	0.46740463771415874
+Segment 64 score:	0.5921150609772255
+Segment 65 score:	0.42294625629195537
+Segment 66 score:	0.5079802317758422
+Segment 67 score:	0.4408465273089754
+Segment 68 score:	0.42349605864337
+Segment 69 score:	0.4375677163356294
+Segment 70 score:	0.475330201117602
+Segment 71 score:	0.4643160540075604
+Segment 72 score:	0.4158803465605697
+Segment 73 score:	0.4690790107567978
+Segment 74 score:	0.43195692241370526
+Segment 75 score:	0.4170654693748174
+Segment 76 score:	0.43613316967255805
+Segment 77 score:	0.41210466802945445
+Segment 78 score:	0.32868648582914983
+Segment 79 score:	0.37525817992877497
+Segment 80 score:	0.4520165241048448
+Segment 81 score:	0.5615672345134224
+Segment 82 score:	0.515809991454056
+Segment 83 score:	0.4359605961982578
+Segment 84 score:	0.3821459179572218
+Segment 85 score:	0.32810533581610124
+Segment 86 score:	0.4153649234976743
+Segment 87 score:	0.44909909939852216
+Segment 88 score:	0.5405962551329524
+Segment 89 score:	0.37717070665975366
+Segment 90 score:	0.4562760908342326
+Segment 91 score:	0.4525882432671822
+Segment 92 score:	0.4269630517437681
+Segment 93 score:	0.4139359195905754
+Segment 94 score:	0.43075109222246394
+Segment 95 score:	0.3939246092235231
+Segment 96 score:	0.34241610315935533
+Segment 97 score:	0.39597026719753214
+Segment 98 score:	0.42949590013985417
+Segment 99 score:	0.4369659151286018
+Segment 100 score:	0.44468246624196867
+Segment 101 score:	0.3525762342973754
+Segment 102 score:	0.3100227884500086
+Segment 103 score:	0.35180053814825046
+Segment 104 score:	0.3872823205894489
+Segment 105 score:	0.4118547541102965
+Segment 106 score:	0.34869999239181804
+Segment 107 score:	0.378331941446662
+Segment 108 score:	0.2903686038295302
+Segment 109 score:	0.32297062242047164
+Segment 110 score:	0.4697422066719925
+Segment 111 score:	0.36613162386481146
+Segment 112 score:	0.31297651297128753
+Segment 113 score:	0.4078760111690131
+Segment 114 score:	0.3740817646097299
+Segment 115 score:	0.30517019187845695
+Segment 116 score:	0.41051975229816
+Segment 117 score:	0.4598807077596666
+Segment 118 score:	0.3302564800324174
+Segment 119 score:	0.3613429243197354
+Segment 120 score:	0.4432580187935686
+Segment 121 score:	0.37246357716183287
+Segment 122 score:	0.39618161896200454
+Segment 123 score:	0.4615968630418305
+Segment 124 score:	0.39944559352485787
+Segment 125 score:	0.37342293937383253
+Segment 126 score:	0.4001272690698982
+Segment 127 score:	0.4041510313720177
+Segment 128 score:	0.3631984031461924
+Segment 129 score:	0.4243401505660771
+Segment 130 score:	0.375228514310852
+Segment 131 score:	0.34211511334304756
+Segment 132 score:	0.37880840098413515
+Segment 133 score:	0.42133521396784773
+Segment 134 score:	0.45348591549999934
+Segment 135 score:	0.4594572805803551
+Segment 136 score:	0.3680640161779623
+Segment 137 score:	0.3512890994395682
+Segment 138 score:	0.4403755262553476
+Segment 139 score:	0.44140553742313265
+
+System level statistics:
+
+
+           Test Matches                  Reference Matches
+Stage      Content  Function    Total    Content  Function    Total
+1             1391      1165     2556       1391      1165     2556
+2               13         0       13         13         0       13
+3               15         1       16         13         3       16
+4               49        67      116         42        65      107
+Total         1468      1233     2701       1459      1233     2692
+
+Test words:             3184
+Reference words:        3243
+Chunks:                 971
+Precision:              0.849984620116887
+Recall:                 0.8392383853769991
+f1:                     0.8445773208891573
+fMean:                  0.8408329651269917
+Fragmentation penalty:  0.4891420636132242
+
+Final score:            0.4295461934107488

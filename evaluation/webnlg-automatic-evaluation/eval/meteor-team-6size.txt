@@ -1,0 +1,57 @@
+Meteor version: 1.5
+
+Eval ID:        meteor-1.5-wo-en-norm-0.85_0.2_0.6_0.75-ex_st_sy_pa-1.0_0.6_0.8_0.6
+
+Language:       English
+Format:         plaintext
+Task:           Ranking
+Modules:        exact stem synonym paraphrase
+Weights:        1.0 0.6 0.8 0.6
+Parameters:     0.85 0.2 0.6 0.75
+
+Segment 1 score:	0.5517161554343802
+Segment 2 score:	0.3996010264123975
+Segment 3 score:	0.4527774007798897
+Segment 4 score:	0.4827548337057211
+Segment 5 score:	0.4546093090669965
+Segment 6 score:	0.5111426610229429
+Segment 7 score:	0.48727886054327735
+Segment 8 score:	0.3830643705160813
+Segment 9 score:	0.39088445559733354
+Segment 10 score:	0.4643171337376909
+Segment 11 score:	0.4536095371461956
+Segment 12 score:	0.4723569336995395
+Segment 13 score:	0.4060670651306881
+Segment 14 score:	0.4402337302660177
+Segment 15 score:	0.4049430067489332
+Segment 16 score:	0.3820269483200258
+Segment 17 score:	0.41003012204060213
+Segment 18 score:	0.5446934401910861
+Segment 19 score:	0.4832415115796644
+Segment 20 score:	0.4326698725533285
+Segment 21 score:	0.424397787173223
+Segment 22 score:	0.5084781930150281
+Segment 23 score:	0.49016327308372426
+Segment 24 score:	0.4573711409911608
+
+System level statistics:
+
+
+           Test Matches                  Reference Matches
+Stage      Content  Function    Total    Content  Function    Total
+1              481       390      871        481       390      871
+2                2         0        2          2         0        2
+3                6         1        7          6         1        7
+4               12        14       26         11        12       23
+Total          501       405      906        500       403      903
+
+Test words:             1053
+Reference words:        1078
+Chunks:                 275
+Precision:              0.8740362285183465
+Recall:                 0.8509057971014492
+f1:                     0.8623159302478218
+fMean:                  0.8542970052076819
+Fragmentation penalty:  0.4728638075733149
+
+Final score:            0.4503308705266974

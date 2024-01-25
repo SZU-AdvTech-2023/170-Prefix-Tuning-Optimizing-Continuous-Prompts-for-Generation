@@ -1,0 +1,25 @@
+CUDA_VISIBLE_DEVICES=3 python train_e2e.py --epoch 5 --learning_rate 0.00005 --mode data2text --bsz 4 --seed 101 --tuning_mode prefixtune --format_mode infix --preseqlen 1 --train_and_eval True
+CUDA_VISIBLE_DEVICES=0 python train_e2e.py --epoch 5 --learning_rate 0.00005 --mode data2text --bsz 4 --seed 101 --tuning_mode prefixtune --prefix_mode embedding --preseqlen 1 --train_and_eval True
+CUDA_VISIBLE_DEVICES=0 python train_e2e.py --optim_prefix yes --preseqlen 10 --epoch 5 --learning_rate 0.00005 --mode data2text --bsz 4 --seed 101 --train_and_eval True --tuning_mode finetune-top
+CUDA_VISIBLE_DEVICES=1 python train_e2e.py --optim_prefix yes --preseqlen 10 --epoch 5 --learning_rate 0.00005 --mode data2text --bsz 4 --seed 101 --train_and_eval True --notes lowdata_50
+CUDA_VISIBLE_DEVICES=0 python train_e2e.py --epoch 5 --learning_rate 0.00005 --mode data2text --bsz 4 --seed 101 --tuning_mode finetune --train_and_eval True
+python train_e2e.py --epoch 5 --learning_rate 0.00005 --mode triples --bsz 4 --seed 101 --tuning_mode adaptertune --train_and_eval True
+CUDA_VISIBLE_DEVICES=2 python train_e2e.py --epoch 5 --learning_rate 0.00005 --mode webnlg --bsz 4 --seed 101 --tuning_mode adaptertune --train_and_eval True
+python train_e2e.py --epoch 5 --learning_rate 0.00005 --mode data2text --bsz 4 --seed 101 --tuning_mode adaptertune --train_and_eval True
+CUDA_VISIBLE_DEVICES=1 python train_e2e.py --optim_prefix yes --preseqlen 5 --epoch 5 --learning_rate 0.00005 --mode triples --bsz 2 --seed 101 --train_and_eval True
+python train_e2e.py --optim_prefix yes --preseqlen 5 --epoch 5 --learning_rate 0.00005 --mode webnlg --bsz 4 --seed 101 --train_and_eval True
+python train_e2e.py --optim_prefix yes --preseqlen 5 --epoch 5 --learning_rate 0.00005 --mode data2text --bsz 4 --seed 101 --train_and_eval
+python -m pdb train_e2e.py --optim_prefix yes --preseqlen 5 --epoch 5 --learning_rate 0.00005 --mode data2text --bsz 1 --seed 101
+CUDA_VISIBLE_DEVICES=0,1 python train_e2e.py --optim_prefix yes --preseqlen 5 --epoch 5 --learning_rate 0.00005 --mode data2text --bsz 1 --seed 101
+python train_e2e.py --optim_prefix yes --preseqlen 5 --epoch 5 --learning_rate 0.00005 --mode data2text --bsz 5 --seed 101
+fuser -v /dev/nvidia*
+Model_FILE = args.mode + args.tuning_mode + '_' + args.optim_prefix[:1] + '_' + str(args.preseqlen) + \
+                     '_' + args.prefix_mode[:3] + '_' + args.format_mode[:3] + '_' + \
+                     'b={}-'.format(batch_size) + 'e={}_'.format(args.epoch) + 'd={}_'.format(args.dropout) + \
+                     'u={}_'.format(args.use_dropout) + 'lr={}_'.format(args.learning_rate) \
+                     + 'w={}_'.format(args.weight_decay) + 's={}'.format(args.seed) + '_r={}'.format(args.init_random[:1]) +\
+                     '_m={}'.format(args.mid_dim)
+
+
+
+bash ../evaluation/run_eval_on_dart.sh /yuhongf/wangyufeng/PrefixTuning/examples/text-generation/triples_results/triplesprefixtune_y_5_act_cat_b=4-e=5_d=0.0_u=no_lr=5e-05_w=0.0_s=101_r=n_m=512_o=1_o=1_test_beam /yuhongf/wangyufeng/PrefixTuning/examples/text-generation/triples_results/triplesprefixtune_y_5_act_cat_b=4-e=5_d=0.0_u=no_lr=5e-05_w=0.0_s=101_r=n_m=512_o=1_o=1_test_gold /yuhongf/wangyufeng/PrefixTuning/examples/text-generation/triples_results/triplesprefixtune_y_5_act_cat_b=4-e=5_d=0.0_u=no_lr=5e-05_w=0.0_s=101_r=n_m=512_o=1_o=1_test_beam_eval
